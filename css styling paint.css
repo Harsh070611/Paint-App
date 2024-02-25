@@ -1,0 +1,168 @@
+		.btnn{
+			position: relative;
+			top: 10px;
+		}
+		textarea{
+			width: 1340px;
+			height: 460px;
+			position: relative;
+			bottom: 22px;
+			right: 6px;
+		
+		}
+		.bgchr{
+			height: 60px;
+			width:413px ;
+			background-color: white;
+			position: relative;
+			bottom: 590px;
+			left: 489px;
+			border: solid 3px blue;
+		}
+		button{
+			background-color: #fff;
+			position: relative;
+			top:7px;
+			left:2px;
+		}
+		button:hover{
+			background-color: #defbfc;
+		}
+		.div2{
+			width:70px;
+			height: 100px;
+			background-color: #f1f1f1;
+			position: relative;
+			display: none;
+			bottom:30px;
+			cursor:context-menu;
+		
+		}
+		.div3{
+			width:70px;
+			height: 100px;
+			background-color: #f1f1f1;
+			position: relative;
+			bottom:30px;
+			display: none;
+			left:35px;
+			cursor:context-menu;
+		}
+		.div4{
+			width:80px;
+			height: 40px;
+			background-color: #f1f1f1;
+			position: relative;
+			display: none;
+			bottom:30px;
+			left:70px;
+			cursor:context-menu;
+		}
+		.div5{
+			width:80px;
+			height: 40px;
+			background-color: #f1f1f1;
+			position: relative;
+			display: none;
+			bottom:30px;
+			left:125px;
+			cursor:context-menu;
+		}
+		.div6{
+			width:1343px;
+			height: 70px;
+			background-color: lightgrey;
+			position: relative;
+			bottom: 32px;
+			right:5px;
+		}
+		.div1{
+			width:1400px;
+			height: 60px;
+			position: relative;
+			bottom: 10px;
+			right: 5px;
+			
+		}
+		.btn{
+			border:none;
+			background-color: #fff;
+			position: relative;
+			top:-7px;
+		}
+		select{
+			position: relative;
+			top:7px;
+			height: 25px;
+		}
+		.div7{
+			height: 60px;
+			width: 65px;
+			border:solid 2px red;
+			text-align: center;
+			position: relative;
+			bottom: 655px;
+			left: 420px;
+			background-color:#A7F432;
+		}
+
+		.bucket{
+			width: 70px;
+			height: 65px;
+			border:solid 2px red;
+			position: relative;
+			top:-718px;
+			left: 330px;
+		}
+		.rubber{
+			width: 20px;
+			height: 13px;
+			position: relative;
+		}
+		.imgrub{
+			width: 20px;
+			height: 15px;
+		}
+		.div8{
+			height:63px;
+			width: 100px;
+			border:solid 3px  black ;
+			background-color: black;
+			position: relative;
+			bottom: 785px;
+			left:920px;
+		}
+		.div9{
+			position: relative;
+			top:-25px;
+			height: 30px;
+		}
+		.btn2{
+			position: relative;
+			top: -815px;
+			width:55px;
+			height: 24px;
+		}
+		.bgchanger{
+			width: 230px;
+			height: 60px;
+			border:solid red 3px;
+			position: relative;
+			bottom: 880px;
+			left: 1050px;
+		}
+		.btnbg{
+			height: 55px;
+			position: relative;
+			top: 2px;
+			width: 56px;
+		}
+		.inputbox{
+			visibility: hidden;
+			width: 700px;
+			height: 40px;
+			position: relative;
+			bottom: 860px;
+			left: 330px;
+		}
+	

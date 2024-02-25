@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my webpage</title>
+</head>
+<link rel="stylesheet" type="text/css" href="dup.css">
+<body id="b1" scroll="no" style="overflow: hidden">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<div class="div1">
+		<img src="paintt.png" height="61%" width="2%"></img><br>
+		<button class = "btn" onclick = "hide()" ondblclick = "dropdown()" name="colorchange">File</button>&nbsp<button  class="btn"  name="colorchange" onclick = "hide1()" ondblclick = "dropdown1()" name="colorchange">Edit</button>&nbsp<button  class = "btn" onclick = "hide2()" ondblclick = "dropdown2()" name="colorchange">Format</button>&nbsp<button  class = "btn" onclick = "hide3()" ondblclick = "dropdown3()" id="btn5" name="colorchange">Veiw</button></div><br>
+		<div class = "div2" id = "d1">&nbspNew<br>&nbspNew Window<br>&nbspSave<br>&nbspExit</div>
+		<div class = "div3" id = "d3">&nbspUndo<br>&nbspCut<br>&nbspCopy<br>&nbspPaste<br>&nbspSelect All</div>
+		<div class = "div4" id = "d4">&nbspFont<br>&nbspWordwrap</div>
+		<div class = "div5" id = "d5">&nbspZoom In<br>&nbspZoom Out</div>
+			<div class = "div6">
+					&nbsp<button onclick = "fon()"><b>A^</b></button>&nbsp
+					<button onclick = "fon2()"><b>A -</b></button>
+					<button onclick = "italics()"><i><b>I</b></i></button>
+					<button onclick = "bold()"><b>&nbspB&nbsp</b></button>&nbsp
+					<button onclick="underline()" class="underline"><b>&nbsp<u>U</u>&nbsp</b></button>&nbsp
+					<select name="Font-Style" id = "styles" onchange = "sty()" >
+						<option><b>Font-Style</b></option>
+						<option>calibiri</option>
+						<option>arial</option>
+						<option>bellmt</option>
+						<option>candara</option>
+						<option>helvetica</option>
+						<option>century</option>
+						<option>Marker Felt</option>
+						<option>Comic Sans MS</option>
+						<option>Lucida</option>
+						<option>Forte</option>
+						<option>Courier New</option>
+						<option>Bahnschrift</option>
+						<option>Brush Script MT</option>
+						<option>Apple Chancery</option>
+						<option>Chalkduster</option>
+						<option>impact</option>
+						
+					</select>&nbsp
+					
+					
+			</div>
+	</div>
+	<textarea id  = "text" ></textarea>
+	<div id = "text1"></div><br>
+	<div class = "bgchr" id="bgch">
+		<button style="background-color: red" onclick = "color('red')" id="redd">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: yellow" onclick = "color('yellow')" id="yelloww">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: cyan" onclick = "color('cyan')" id="cyann">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: #00ff00" onclick = "color('#00ff00')" id="greenn">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: brown" onclick = "color('brown')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: blue" onclick = "color('blue')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: orange" onclick = "color('orange')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: violet" onclick = "color('violet')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: pink" onclick = "color('pink')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: #FF5470" onclick="color('#FF5470')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: #00468C" onclick="color('#00468C')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: #fe4b03" onclick="color('#fe4b03')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: #65fe08" onclick="color('#65fe08')">&nbsp&nbsp&nbsp</button>
+
+		<br>
+		<button style="background-color: #FFDB00" onclick = "color('#FFDB00')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: black" onclick = "color('black')" style="border-color: white">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: white" onclick = "color('white')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: lightblue" onclick = "color('lightblue')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: purple" onclick = "color('purple')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: tomato" onclick = "color('tomato')" style="border-color: white">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: grey" onclick = "color('grey')">&nbsp&nbsp&nbsp</button>
+
+		<button style="background-color: dodgerblue" onclick = "color('dodgerblue')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: lightgreen" onclick = "color('lightgreen')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: #FDFF00" onclick ="color('#FDFF00')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: #9B7653" onclick ="color('#9B7653')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: #ACACE6" onclick ="color('#ACACE6')">&nbsp&nbsp&nbsp</button>
+		<button style="background-color: #fef69e" onclick="color('#fef69e')">&nbsp&nbsp&nbsp</button>
+	</div>
+	<div class = "div7"><b><i><br>COLORS</i></b></div>
+	<button onclick="Bucket()" class = "bucket"><img src="bucket.png" width="96%" height="98%"></button>
+	<div class="div8" id = "theme">
+		<p style="position: relative; bottom: 15px;"><font color = white size="4" id = "Para"><b>THEME</b></font></p>
+			<button onclick = "mode('#222220')" style="background-color: black; border: solid 3px white;" class="div9"><font color="white">Dark</font></button>
+			<button onclick = "mode('white')" style="background-color: white; border: solid 3px black" class="div9"><font color = "black">Light</font></button>
+	</div>
+	<button onclick="pos('Center')" class="btn2"><b>Center</b></button>
+	<button onclick="pos('left')" class="btn2"><b>Left</b></button>
+	<button onclick="pos('right')" class="btn2"><b>Right</b></button>
+	<button onclick="eraser()" class="Rubber" style="top: -814px;"><img src="eraser.png" class="imgrub"></button>
+	<div class = "bgchanger"><button class="btnbg" onmouseover="hovein('Green')" onmouseout="hoveout()" onclick="setimg('Green')"><img src="Green.png" height="50px" width="50px" style="position: absolute;left: 2px; top: 2px" ></button><button class="btnbg" onmouseover="hovein('Circuit')" onmouseout="hoveout()"  onclick="setimg('Circuit')" ><img src="Circuit.png" height="50px" width="50px" style="position: absolute;left: 2px; top: 2px"></button><button class="btnbg"onmouseover="hovein('Purple')" onmouseout="hoveout()"><img src="Purple.png" height="50px" width="50px" style="position: absolute;left: 2px; top: 2px" onmouseover="hovein('Computer')" onmouseout="hoveout()" onclick="setimg('Purple')"></button><button class="btnbg" onmouseover="hovein('Blocks')" onmouseout="hoveout()" onclick="setimg('Blocks')"><img src="Blocks.png" height="50px" width="50px" style="position: absolute;left: 2px; top: 2px" ></button></div>
+	<input type="text" placeholder="Enter The Text" class="inputbox" id="inputtbox" maxlength="94">
+	<INPUT type = "image" src  =" brush.jpg" onclick = "brush()" style="position: relative; top: -910px; left: -490px; height: 30px; width: 45px;">
+	<button onclick="brush_size()" style="position: relative; top: -920px; left: -490px; height: 25px;">Brush size</button>
+	<canvas id="a" width="1330" height="460" style="border:solid #c3c3c3 ;position: relative;">
+	<script type="text/javascript">
+
+		var tex = document.getElementById("text").innerHTML;
+		var a = 17;
+		var b = 100; 
+		var c = 0;
+		var colorr = 0;
+		var remove = 0;
+		var decback = 0;
+		var dec = false;
+		var dec1 = false;
+		var dec2 = false;
+		var l = 0;
+		var count = 0;
+		var flag = false;
+
+		var md = false;
+		var canvas = document.getElementById('a');
+		canvas.addEventListener('mousedown', down);
+		canvas.addEventListener('mouseup', toggledraw);
+			function draw(canvas,posx,posy){
+    		var context = canvas.getContext('2d');
+    		if (flag === true){
+    			context.fillStyle = colour;
+    		}
+    		else{
+    			context.fillStyle = "black";
+
+    		}
+    		
+		      if(md){
+		        context.fillRect(posx,posy,size,size)
+		      }
+		}
+		canvas.addEventListener('mousemove', 
+		function(evt){
+		    var mousePos = getMousePos(canvas,evt)
+		    var posx = mousePos.x;
+		    var posy = mousePos.y;
+		    draw(canvas,posx,posy)
+
+		  });
+
+		function down(){
+		    md = true;
+		  }
+		function toggledraw(){
+		    md = false;
+		  }
+		function getMousePos(canvas,evt){
+		    var rect = canvas.getBoundingClientRect();
+		    return{
+		      x:evt.clientX- rect.left,
+		      y:evt.clientY - rect.top
+		    };
+		}
+		function brush(){
+			if (count%2 === 0){
+				document.getElementById('a').style.top = "-910px";
+			}
+			else{
+				document.getElementById('a').style.top = "910px";
+			}
+			count++;
+
+		}
+		
+
+
+		function fon(){
+			a++; 
+			var info = document.getElementById("text").style.fontSize = a + "px" ;
+			
+			
+
+		}
+		function fon2(){
+			a--; 
+			document.getElementById("text").style.fontSize = a + "px" ;
+			
+
+		}
+		function fon1(){
+			document.getElementById("text1").style.width = b + "px" ;
+			document.getElementById("text1").style.height = b + "px" ;
+			b = b + 10; 
+
+		}
+		
+		function italics(){
+			if(remove%2 === 0){ 
+				document.getElementById("text").style.fontStyle = "italic";
+			}
+			else{
+				document.getElementById("text").style.fontStyle = "normal"
+			}
+			remove++;
+		}
+		function bold(){
+			if(remove%2 === 0){ 
+				document.getElementById("text").style.fontWeight = "bold";
+			}
+			else{
+				document.getElementById("text").style.fontWeight = "normal";
+			}
+			remove++;
+		}
+		function background() {
+
+			if(c%2 === 0){
+				document.getElementById("bgch").style.display = "block";
+			}
+			else{
+				document.getElementById("bgch").style.display = "none";
+			}
+			c++;
+		}
+		function sty(){
+			var x = document.getElementById("styles");
+			var y = x.selectedIndex;
+			var change = x.options[y].text;
+			document.getElementById("text").style.fontFamily = change;
+
+
+
+		}
+		function Bucket(){
+			colorr = 1;
+
+		}
+		function color(colors){
+			window.colour = colors;
+			window.flag = true;
+			if(colorr === 1){
+				document.getElementById("inputtbox").style.backgroundColor = "white";
+				document.getElementById("text").style.backgroundImage = "none";
+				document.getElementById("text").style.backgroundColor = colors;
+				document.getElementById("inputtbox").style.color = "black";
+
+			}
+			else{
+				document.getElementById("inputtbox").style.backgroundColor = "white";
+				document.getElementById("text").style.color = colors;
+				document.getElementById("inputtbox").style.color = "black";
+			}
+			colorr = 0;
+		}
+		function eraser(){
+			document.getElementById("text").value = "";
+		}
+		function mode(modecolor){
+			document.getElementById("b1").style.backgroundColor = modecolor;
+			if(document.getElementById("b1").style.backgroundColor === "white"){
+				document.getElementById("theme").style.backgroundColor = "#222220";
+				document.getElementById("Para").style.color = "white";
+			}
+			else{
+				document.getElementById("theme").style.backgroundColor = "white";
+				document.getElementById("Para").style.color = "black";
+			}
+			
+		}
+		function pos(argument) {
+			document.getElementById('text').style.textAlign = argument;
+		}
+		function underline(){
+			if(remove%2 === 0){ 
+				document.getElementById("text").style.textDecoration =  "underline"
+			}
+			else{
+				document.getElementById("text").style.textDecoration =  "none";
+			}
+			remove++;
+		}
+		function hovein(img1){
+			if(img1 === "Green"){
+				document.getElementById("text").style.backgroundImage = "url(Green.png)";
+				document.getElementById("inputtbox").style.backgroundColor = "white";
+				document.getElementById("inputtbox").style.color = "green";
+			}
+			else if(img1 === "Circuit"){
+				document.getElementById("text").style.backgroundImage = "url(Circuit.png)";
+				document.getElementById("inputtbox").style.backgroundColor = "lightblue";
+				document.getElementById("inputtbox").style.color = "white";
+			}
+			else if(img1 === "Blocks"){
+				document.getElementById("text").style.backgroundImage = "url(Blocks.png)";
+				document.getElementById("inputtbox").style.backgroundColor = "white";
+				document.getElementById("inputtbox").style.color = "black";
+		
+
+			}
+			else if(img1 === "Purple"){
+				document.getElementById("text").style.backgroundImage = "url(Purple.png)";
+				document.getElementById("inputtbox").style.backgroundColor = "orange";
+				document.getElementById("inputtbox").style.color = "yellow";
+			}
+		}
+
+		function hoveout(){
+			if(dec === false){
+				document.getElementById("text").style.backgroundImage = "none";
+			}
+			if(dec1 === false){
+				document.getElementById("text").style.backgroundImage = "none";
+			}
+			if(dec2 === false){
+				document.getElementById("text").style.backgroundImage = "none";
+			}
+
+		}
+		function setimg(argument) {
+			console.log(argument)
+			if(argument == "Green"){
+				document.getElementById("text").style.backgroundImage = "url(Green.png)";
+				window.dec = true;
+				window.dec1 = true;
+				window.dec2 = true;
+				console.log(dec)
+				
+			}
+			else if(argument === "Circuit"){
+				document.getElementById("text").style.backgroundImage = "url(Circuit.png)";
+				window.dec = true;
+				window.dec1 = true;
+				window.dec2 = true;
+				
+			}
+			else if(argument === "Blocks"){
+				document.getElementById("text").style.backgroundImage = "url(Blocks.png)";
+				window.dec = true;
+				window.dec1 = true;
+				window.dec2 = true;
+			}
+
+			else{
+				document.getElementById("text").style.backgroundImage = "url(Purple.png)";
+				window.dec = true;
+				window.dec1 = true;
+				window.dec2 = true;
+			}
+			
+		}
+		function brush_size() {
+			window.size = prompt("Enter The Size of The Brush")
+		}
+		
+
+	</script>
+
+	</body>
+</html>
+
+
